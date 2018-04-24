@@ -1,0 +1,22 @@
+// %go {
+//     padding: 5px;
+//     box-sizing: border-box;
+//     outline: 1px solid gray;
+//     background: #ffc0cb;
+// }
+
+.login {
+    // @extend %go;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: 1px solid gray;
+    background: #ffc0cb;
+
+    > .container {
+        background: #d3ffd1;
+    }
+
+    .submit-btn > input {
+        border: none;
+    }
+}

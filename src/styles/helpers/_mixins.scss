@@ -1,0 +1,14 @@
+// MIXINS
+    
+// Mixins are great for vendor/browser prefixes like in the example below. They can be used for any kind of style mixing though, and they can accept multiple arguments.)
+
+// Example (from Sass sie)
+    // @mixin border-radius($radius) {
+    //     -webkit-border-radius: $radius;
+    //        -moz-border-radius: $radius;
+    //         -ms-border-radius: $radius;
+    //             border-radius: $radius;
+    // }
+    // .box { 
+    //     @include border-radius(10px); 
+    // }
