@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/main.css';
+import './styles/index.css';
 import App from './containers/App';
 // Router
 import { HashRouter } from 'react-router-dom';
@@ -10,10 +10,10 @@ import store from './redux/store';
 // import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <HashRouter>
-        <Provider store={store}>
-            <App />
-        </Provider>
-    </HashRouter>
+  <HashRouter>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </HashRouter>
 , document.getElementById('root'));
 // registerServiceWorker();

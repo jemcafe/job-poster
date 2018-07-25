@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Login (props) {
+function Login (props) {
     const { handleChange, login } = props;
     
     return (
@@ -24,4 +24,5 @@ Login.propTypes = {
     handleChange: PropTypes.func.isRequired,
     login: PropTypes.func.isRequired
 }
-// .isRequired is used to make sure the component has the required property attributes
+
+export default Login;

@@ -10,7 +10,6 @@ const authCtrl = require('./controllers/auth_cntrl');
 // Middlewares
 const checkForSession = require('./middlewares/checkSession');
 
-
 app.use(bodyParser.json());
 app.use(session({
     secret: process.env.SESSION_SECRET,

@@ -4,12 +4,14 @@ import React, { Component } from 'react';
 // import { getUser } from '../redux/reducer/user/actions';
 // Routes
 import routes from '../router/router';
+import Loader from '../hoc/Loader';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         { routes }
+        <Loader />
       </div>
     );
   }
